@@ -24,6 +24,7 @@ body {
     width: 210mm;
     height: 297mm;
     background-color: $bg-container;
+
     .content-kiri {
       width: 80mm;
       height: 297mm;
@@ -359,6 +360,80 @@ body {
             }
           }
         }
+      }
+    }
+  }
+  @media only screen and (max-width: 426px) {
+    .container {
+      flex-direction: column;
+      height: 297mm;
+      width: 150mm;
+      .content-kiri {
+        width: 150mm;
+        .profile-utama {
+          height: 300px;
+          .nama {
+            width: 300px;
+            .nama-teks {
+              width: 300px;
+              text-align: center;
+              h2 {
+                margin-bottom: 7px;
+              }
+            }
+          }
+        }
+      }
+      .data-diri {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        .profile-kontak {
+          height: 250px;
+          width: 50%;
+
+          .kontak {
+            .kontak-teks {
+              h4 {
+                text-align: center;
+              }
+              .detail-kontak {
+                align-items: center;
+              }
+            }
+          }
+        }
+        .profile-ikuti {
+          height: 250px;
+          width: 50%;
+
+          .ikuti {
+            margin: autoz;
+            .kontak-ikuti {
+              h4 {
+                text-align: center;
+              }
+              .detail-ikuti {
+                padding-left: 25px;
+              }
+            }
+          }
+        }
+        .profile-hobi {
+          height: 180px;
+          width: 50%;
+          padding-top: 20px;
+          .hobi {
+            h4 {
+              text-align: center;
+            }
+          }
+        }
+      }
+      .content-kanan {
+        width: 150mm;
+        padding: 30px 0 30px 0;
       }
     }
   }

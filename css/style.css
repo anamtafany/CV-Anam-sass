@@ -337,4 +337,68 @@ body .container .content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlia
 body .container .content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian .bintang-keahlian .warna {
   color: #8e8492;
   margin-right: 6px;
+}
+@media only screen and (max-width: 426px) {
+  body .container {
+    flex-direction: column;
+    height: 297mm;
+    width: 150mm;
+  }
+  body .container .content-kiri {
+    width: 150mm;
+  }
+  body .container .content-kiri .profile-utama {
+    height: 300px;
+  }
+  body .container .content-kiri .profile-utama .nama {
+    width: 300px;
+  }
+  body .container .content-kiri .profile-utama .nama .nama-teks {
+    width: 300px;
+    text-align: center;
+  }
+  body .container .content-kiri .profile-utama .nama .nama-teks h2 {
+    margin-bottom: 7px;
+  }
+  body .container .data-diri {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  body .container .data-diri .profile-kontak {
+    height: 250px;
+    width: 50%;
+  }
+  body .container .data-diri .profile-kontak .kontak .kontak-teks h4 {
+    text-align: center;
+  }
+  body .container .data-diri .profile-kontak .kontak .kontak-teks .detail-kontak {
+    align-items: center;
+  }
+  body .container .data-diri .profile-ikuti {
+    height: 250px;
+    width: 50%;
+  }
+  body .container .data-diri .profile-ikuti .ikuti {
+    margin: autoz;
+  }
+  body .container .data-diri .profile-ikuti .ikuti .kontak-ikuti h4 {
+    text-align: center;
+  }
+  body .container .data-diri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti {
+    padding-left: 25px;
+  }
+  body .container .data-diri .profile-hobi {
+    height: 180px;
+    width: 50%;
+    padding-top: 20px;
+  }
+  body .container .data-diri .profile-hobi .hobi h4 {
+    text-align: center;
+  }
+  body .container .content-kanan {
+    width: 150mm;
+    padding: 30px 0 30px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
