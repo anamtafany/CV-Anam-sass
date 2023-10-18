@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,700;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+// Variabel SASS
+$bg-container: rgb(230, 230, 230);
+$bg-nama: #2b232e;
+$bg-kiri: #4c3f52;
+$bg-kanan: white;
+$teks-kiri: white;
+$teks-kanan: #4c3f52;
+
+body {
+  background-color: $bg-container;
+  .container {
+    margin: auto;
+    display: flex;
+    width: 210mm;
+    height: 297mm;
+    background-color: $bg-container;
+    .content-kiri {
+      width: 80mm;
+      height: 297mm;
+      background-color: $bg-kiri;
+      .profile-utama {
+        height: 360px;
+        width: 100%;
+        padding-top: 30px;
+        background-color: $bg-nama;
+        .profile-img {
+          height: 160px;
+          width: 160px;
+          border-radius: 50%;
+          overflow: hidden;
+          margin: auto;
+          text-align: center;
+          background-color: $bg-kanan;
+          img {
+            padding-top: 10px;
+            width: 88%;
+            border-radius: 50%;
+            text-align: center;
+          }
+        }
+        .nama {
+          width: 190px;
+          color: $teks-kiri;
+          margin: auto;
+          .nama-teks {
+            width: 180px;
+            margin: 30px 0 20px 0;
+            h3 {
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+      .profile-kontak {
+        height: 250px;
+        width: 100%;
+        padding-top: 20px;
+        .kontak {
+          width: 190px;
+          color: $teks-kiri;
+          margin: auto;
+          .kontak-teks {
+            width: 180px;
+            margin: 20px 0 20px 0;
+            h4 {
+              margin-bottom: 30px;
+              letter-spacing: 2px;
+            }
+            .detail-kontak {
+              font-size: 14px;
+              margin-bottom: 10px;
+
+              .list-kontak {
+                position: relative;
+                list-style: none;
+                margin: 25px 0;
+                cursor: pointer;
+                display: flex;
+                .bg-icon {
+                  width: 30px;
+                  .icon i {
+                    font-size: 20px;
+                  }
+                }
+                .bg-text {
+                  width: 150px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .profile-ikuti {
+        height: 290px;
+        width: 100%;
+        padding-top: 20px;
+        .ikuti {
+          width: 190px;
+          color: $teks-kiri;
+          margin: auto;
+          .kontak-ikuti {
+            width: 180px;
+            margin: 20px 0 20px 0;
+            h4 {
+              margin-bottom: 30px;
+              letter-spacing: 2px;
+            }
+            .detail-ikuti {
+              font-size: 14px;
+              margin-bottom: 10px;
+
+              .list-ikuti {
+                position: relative;
+                list-style: none;
+                margin: 25px 0;
+                cursor: pointer;
+                display: flex;
+                .bg-icon {
+                  width: 30px;
+                  .icon i {
+                    font-weight: 400;
+                    font-size: 20px;
+                  }
+                }
+                .bg-text {
+                  width: 150px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .profile-hobi {
+        height: 140px;
+        .hobi {
+          width: 190px;
+          color: $teks-kiri;
+          margin: auto;
+          h4 {
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+          }
+          .detail-hobi {
+            display: flex;
+            align-items: start;
+            .list-icon {
+              list-style: none;
+              margin-right: 15px;
+              .bg-icon {
+                height: 40px;
+                text-align: center;
+                .icon i {
+                  font-size: 25px;
+                }
+              }
+              .bg-text {
+                height: 40px;
+                .text {
+                  font-size: 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .content-kanan {
+      width: 190mm;
+      height: 297mm;
+      background-color: $bg-kanan;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .box-kanan {
+        width: 135mm;
+        height: 270mm;
+        // background-color: rgb(244, 242, 242);
+        // TENTANG
+        .bg-tentang {
+          margin-bottom: 40px;
+          .judul-tentang {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            .bg-icon {
+              width: 18mm;
+              .icon-tentang {
+                width: 8mm;
+                height: 8mm;
+                border-radius: 50%;
+                background-color: $bg-kiri;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: $teks-kiri;
+              }
+            }
+            .teks-tentang {
+              width: 60mm;
+            }
+            .garis {
+              color: $teks-kanan;
+              width: 100%;
+            }
+          }
+          .isi-tentang {
+            width: 130mm;
+            margin: auto;
+          }
+        }
+        // PENDIDIKAN
+        .bg-pendidikan {
+          .judul-pendidikan {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            .bg-icon {
+              width: 18mm;
+              .icon-pendidikan {
+                width: 8mm;
+                height: 8mm;
+                border-radius: 50%;
+                background-color: $bg-kiri;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: $teks-kiri;
+              }
+            }
+            .teks-pendidikan {
+              width: 100mm;
+            }
+            .garis {
+              color: $teks-kanan;
+              width: 100%;
+            }
+          }
+          .isi-pendidikan {
+            width: 130mm;
+            margin: auto;
+            .bg-sekolah {
+              display: flex;
+              margin-bottom: 20px;
+            }
+            .nama-sekolah {
+              width: 40mm;
+            }
+            .alamat-sekolah {
+              width: 90mm;
+            }
+          }
+        }
+        // PENGALAMAN
+        .bg-pengalaman {
+          .judul-pengalaman {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            .bg-icon {
+              width: 18mm;
+              .icon-pengalaman {
+                width: 8mm;
+                height: 8mm;
+                border-radius: 50%;
+                background-color: $bg-kiri;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: $teks-kiri;
+              }
+            }
+            .teks-pengalaman {
+              width: 55mm;
+            }
+            .garis {
+              color: $teks-kanan;
+              width: 100%;
+            }
+          }
+          .isi-pengalaman {
+            width: 130mm;
+            margin: auto;
+            .bg-pengalaman {
+              display: flex;
+              margin-bottom: 20px;
+
+              .nama-pengalaman {
+                width: 40mm;
+              }
+              .tugas-pengalaman {
+                width: 90mm;
+              }
+            }
+          }
+        }
+        // KEAHLIAN
+        .bg-keahlian {
+          .judul-keahlian {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            .bg-icon {
+              width: 18mm;
+              .icon-keahlian {
+                width: 8mm;
+                height: 8mm;
+                border-radius: 50%;
+                background-color: $bg-kiri;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: $teks-kiri;
+              }
+            }
+            .teks-keahlian {
+              width: 37mm;
+            }
+            .garis {
+              color: $teks-kanan;
+              width: 100%;
+            }
+          }
+          .isi-keahlian {
+            width: 130mm;
+            margin: auto;
+            .bg-keahlian {
+              display: flex;
+              margin-bottom: 20px;
+
+              .nama-keahlian {
+                width: 50mm;
+              }
+              .panah {
+                width: 10mm;
+              }
+              .bintang-keahlian {
+                width: 70mm;
+                display: flex;
+
+                .bintang {
+                  color: $teks-kanan;
+                  margin-right: 6px;
+                }
+                .warna {
+                  color: #8e8492;
+                  margin-right: 6px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

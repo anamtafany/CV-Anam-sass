@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,700;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgb(230, 230, 230);
+}
+body .container {
+  margin: auto;
+  display: flex;
+  width: 210mm;
+  height: 297mm;
+  background-color: rgb(230, 230, 230);
+}
+body .container .content-kiri {
+  width: 80mm;
+  height: 297mm;
+  background-color: #4c3f52;
+}
+body .container .content-kiri .profile-utama {
+  height: 360px;
+  width: 100%;
+  padding-top: 30px;
+  background-color: #2b232e;
+}
+body .container .content-kiri .profile-utama .profile-img {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+}
+body .container .content-kiri .profile-utama .profile-img img {
+  padding-top: 10px;
+  width: 88%;
+  border-radius: 50%;
+  text-align: center;
+}
+body .container .content-kiri .profile-utama .nama {
+  width: 190px;
+  color: white;
+  margin: auto;
+}
+body .container .content-kiri .profile-utama .nama .nama-teks {
+  width: 180px;
+  margin: 30px 0 20px 0;
+}
+body .container .content-kiri .profile-utama .nama .nama-teks h3 {
+  margin-bottom: 10px;
+}
+body .container .content-kiri .profile-kontak {
+  height: 250px;
+  width: 100%;
+  padding-top: 20px;
+}
+body .container .content-kiri .profile-kontak .kontak {
+  width: 190px;
+  color: white;
+  margin: auto;
+}
+body .container .content-kiri .profile-kontak .kontak .kontak-teks {
+  width: 180px;
+  margin: 20px 0 20px 0;
+}
+body .container .content-kiri .profile-kontak .kontak .kontak-teks h4 {
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+body .container .content-kiri .profile-kontak .kontak .kontak-teks .detail-kontak {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+body .container .content-kiri .profile-kontak .kontak .kontak-teks .detail-kontak .list-kontak {
+  position: relative;
+  list-style: none;
+  margin: 25px 0;
+  cursor: pointer;
+  display: flex;
+}
+body .container .content-kiri .profile-kontak .kontak .kontak-teks .detail-kontak .list-kontak .bg-icon {
+  width: 30px;
+}
+body .container .content-kiri .profile-kontak .kontak .kontak-teks .detail-kontak .list-kontak .bg-icon .icon i {
+  font-size: 20px;
+}
+body .container .content-kiri .profile-kontak .kontak .kontak-teks .detail-kontak .list-kontak .bg-text {
+  width: 150px;
+}
+body .container .content-kiri .profile-ikuti {
+  height: 290px;
+  width: 100%;
+  padding-top: 20px;
+}
+body .container .content-kiri .profile-ikuti .ikuti {
+  width: 190px;
+  color: white;
+  margin: auto;
+}
+body .container .content-kiri .profile-ikuti .ikuti .kontak-ikuti {
+  width: 180px;
+  margin: 20px 0 20px 0;
+}
+body .container .content-kiri .profile-ikuti .ikuti .kontak-ikuti h4 {
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+body .container .content-kiri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+body .container .content-kiri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti .list-ikuti {
+  position: relative;
+  list-style: none;
+  margin: 25px 0;
+  cursor: pointer;
+  display: flex;
+}
+body .container .content-kiri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti .list-ikuti .bg-icon {
+  width: 30px;
+}
+body .container .content-kiri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti .list-ikuti .bg-icon .icon i {
+  font-weight: 400;
+  font-size: 20px;
+}
+body .container .content-kiri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti .list-ikuti .bg-text {
+  width: 150px;
+}
+body .container .content-kiri .profile-hobi {
+  height: 140px;
+}
+body .container .content-kiri .profile-hobi .hobi {
+  width: 190px;
+  color: white;
+  margin: auto;
+}
+body .container .content-kiri .profile-hobi .hobi h4 {
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+body .container .content-kiri .profile-hobi .hobi .detail-hobi {
+  display: flex;
+  align-items: start;
+}
+body .container .content-kiri .profile-hobi .hobi .detail-hobi .list-icon {
+  list-style: none;
+  margin-right: 15px;
+}
+body .container .content-kiri .profile-hobi .hobi .detail-hobi .list-icon .bg-icon {
+  height: 40px;
+  text-align: center;
+}
+body .container .content-kiri .profile-hobi .hobi .detail-hobi .list-icon .bg-icon .icon i {
+  font-size: 25px;
+}
+body .container .content-kiri .profile-hobi .hobi .detail-hobi .list-icon .bg-text {
+  height: 40px;
+}
+body .container .content-kiri .profile-hobi .hobi .detail-hobi .list-icon .bg-text .text {
+  font-size: 15px;
+}
+body .container .content-kanan {
+  width: 190mm;
+  height: 297mm;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .container .content-kanan .box-kanan {
+  width: 135mm;
+  height: 270mm;
+}
+body .container .content-kanan .box-kanan .bg-tentang {
+  margin-bottom: 40px;
+}
+body .container .content-kanan .box-kanan .bg-tentang .judul-tentang {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+body .container .content-kanan .box-kanan .bg-tentang .judul-tentang .bg-icon {
+  width: 18mm;
+}
+body .container .content-kanan .box-kanan .bg-tentang .judul-tentang .bg-icon .icon-tentang {
+  width: 8mm;
+  height: 8mm;
+  border-radius: 50%;
+  background-color: #4c3f52;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+body .container .content-kanan .box-kanan .bg-tentang .judul-tentang .teks-tentang {
+  width: 60mm;
+}
+body .container .content-kanan .box-kanan .bg-tentang .judul-tentang .garis {
+  color: #4c3f52;
+  width: 100%;
+}
+body .container .content-kanan .box-kanan .bg-tentang .isi-tentang {
+  width: 130mm;
+  margin: auto;
+}
+body .container .content-kanan .box-kanan .bg-pendidikan .judul-pendidikan {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+body .container .content-kanan .box-kanan .bg-pendidikan .judul-pendidikan .bg-icon {
+  width: 18mm;
+}
+body .container .content-kanan .box-kanan .bg-pendidikan .judul-pendidikan .bg-icon .icon-pendidikan {
+  width: 8mm;
+  height: 8mm;
+  border-radius: 50%;
+  background-color: #4c3f52;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+body .container .content-kanan .box-kanan .bg-pendidikan .judul-pendidikan .teks-pendidikan {
+  width: 100mm;
+}
+body .container .content-kanan .box-kanan .bg-pendidikan .judul-pendidikan .garis {
+  color: #4c3f52;
+  width: 100%;
+}
+body .container .content-kanan .box-kanan .bg-pendidikan .isi-pendidikan {
+  width: 130mm;
+  margin: auto;
+}
+body .container .content-kanan .box-kanan .bg-pendidikan .isi-pendidikan .bg-sekolah {
+  display: flex;
+  margin-bottom: 20px;
+}
+body .container .content-kanan .box-kanan .bg-pendidikan .isi-pendidikan .nama-sekolah {
+  width: 40mm;
+}
+body .container .content-kanan .box-kanan .bg-pendidikan .isi-pendidikan .alamat-sekolah {
+  width: 90mm;
+}
+body .container .content-kanan .box-kanan .bg-pengalaman .judul-pengalaman {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+body .container .content-kanan .box-kanan .bg-pengalaman .judul-pengalaman .bg-icon {
+  width: 18mm;
+}
+body .container .content-kanan .box-kanan .bg-pengalaman .judul-pengalaman .bg-icon .icon-pengalaman {
+  width: 8mm;
+  height: 8mm;
+  border-radius: 50%;
+  background-color: #4c3f52;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+body .container .content-kanan .box-kanan .bg-pengalaman .judul-pengalaman .teks-pengalaman {
+  width: 55mm;
+}
+body .container .content-kanan .box-kanan .bg-pengalaman .judul-pengalaman .garis {
+  color: #4c3f52;
+  width: 100%;
+}
+body .container .content-kanan .box-kanan .bg-pengalaman .isi-pengalaman {
+  width: 130mm;
+  margin: auto;
+}
+body .container .content-kanan .box-kanan .bg-pengalaman .isi-pengalaman .bg-pengalaman {
+  display: flex;
+  margin-bottom: 20px;
+}
+body .container .content-kanan .box-kanan .bg-pengalaman .isi-pengalaman .bg-pengalaman .nama-pengalaman {
+  width: 40mm;
+}
+body .container .content-kanan .box-kanan .bg-pengalaman .isi-pengalaman .bg-pengalaman .tugas-pengalaman {
+  width: 90mm;
+}
+body .container .content-kanan .box-kanan .bg-keahlian .judul-keahlian {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+body .container .content-kanan .box-kanan .bg-keahlian .judul-keahlian .bg-icon {
+  width: 18mm;
+}
+body .container .content-kanan .box-kanan .bg-keahlian .judul-keahlian .bg-icon .icon-keahlian {
+  width: 8mm;
+  height: 8mm;
+  border-radius: 50%;
+  background-color: #4c3f52;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+body .container .content-kanan .box-kanan .bg-keahlian .judul-keahlian .teks-keahlian {
+  width: 37mm;
+}
+body .container .content-kanan .box-kanan .bg-keahlian .judul-keahlian .garis {
+  color: #4c3f52;
+  width: 100%;
+}
+body .container .content-kanan .box-kanan .bg-keahlian .isi-keahlian {
+  width: 130mm;
+  margin: auto;
+}
+body .container .content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian {
+  display: flex;
+  margin-bottom: 20px;
+}
+body .container .content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian .nama-keahlian {
+  width: 50mm;
+}
+body .container .content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian .panah {
+  width: 10mm;
+}
+body .container .content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian .bintang-keahlian {
+  width: 70mm;
+  display: flex;
+}
+body .container .content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian .bintang-keahlian .bintang {
+  color: #4c3f52;
+  margin-right: 6px;
+}
+body .container .content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian .bintang-keahlian .warna {
+  color: #8e8492;
+  margin-right: 6px;
+}/*# sourceMappingURL=style.css.map */
