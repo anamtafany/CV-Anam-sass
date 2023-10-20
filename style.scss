@@ -257,7 +257,7 @@ body {
           }
         }
         .teks-pendidikan {
-          width: 100mm;
+          width: 70%;
         }
         .garis {
           color: $teks-kanan;
@@ -458,6 +458,9 @@ body {
         .isi-tentang {
           width: 100%;
         }
+        // .teks-pendidikan {
+        //   width: 120mm;
+        // }
         .isi-pendidikan {
           width: 100%;
         }
@@ -471,3 +474,9 @@ body {
     }
   }
 }
+
+// @media print {
+//   .box-kanan {
+//     background-color: red;
+//   }
+// }
