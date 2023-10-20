@@ -10,25 +10,27 @@
 body {
   background-color: rgb(230, 230, 230);
 }
-body .container {
+
+.container {
   margin: auto;
   display: flex;
   width: 210mm;
   height: 297mm;
   background-color: rgb(230, 230, 230);
 }
-body .container .content-kiri {
+
+.content-kiri {
   width: 80mm;
   height: 297mm;
   background-color: #4c3f52;
 }
-body .container .content-kiri .profile-utama {
+.content-kiri .profile-utama {
   height: 360px;
   width: 100%;
   padding-top: 30px;
   background-color: #2b232e;
 }
-body .container .content-kiri .profile-utama .profile-img {
+.content-kiri .profile-utama .profile-img {
   height: 160px;
   width: 160px;
   border-radius: 50%;
@@ -37,135 +39,135 @@ body .container .content-kiri .profile-utama .profile-img {
   text-align: center;
   background-color: white;
 }
-body .container .content-kiri .profile-utama .profile-img img {
+.content-kiri .profile-utama .profile-img img {
   padding-top: 10px;
   width: 88%;
   border-radius: 50%;
   text-align: center;
 }
-body .container .content-kiri .profile-utama .nama {
+.content-kiri .profile-utama .nama {
   width: 190px;
   color: white;
   margin: auto;
 }
-body .container .content-kiri .profile-utama .nama .nama-teks {
+.content-kiri .profile-utama .nama .nama-teks {
   width: 180px;
   margin: 30px 0 20px 0;
 }
-body .container .content-kiri .profile-utama .nama .nama-teks h3 {
+.content-kiri .profile-utama .nama .nama-teks h3 {
   margin-bottom: 10px;
 }
-body .container .content-kiri .profile-kontak {
+.content-kiri .profile-kontak {
   height: 250px;
   width: 100%;
   padding-top: 20px;
 }
-body .container .content-kiri .profile-kontak .kontak {
+.content-kiri .profile-kontak .kontak {
   width: 190px;
   color: white;
   margin: auto;
 }
-body .container .content-kiri .profile-kontak .kontak .kontak-teks {
+.content-kiri .profile-kontak .kontak .kontak-teks {
   width: 180px;
   margin: 20px 0 20px 0;
 }
-body .container .content-kiri .profile-kontak .kontak .kontak-teks h4 {
+.content-kiri .profile-kontak .kontak .kontak-teks h4 {
   margin-bottom: 30px;
   letter-spacing: 2px;
 }
-body .container .content-kiri .profile-kontak .kontak .kontak-teks .detail-kontak {
+.content-kiri .profile-kontak .kontak .kontak-teks .detail-kontak {
   font-size: 14px;
   margin-bottom: 10px;
 }
-body .container .content-kiri .profile-kontak .kontak .kontak-teks .detail-kontak .list-kontak {
+.content-kiri .profile-kontak .kontak .kontak-teks .detail-kontak .list-kontak {
   position: relative;
   list-style: none;
   margin: 25px 0;
   cursor: pointer;
   display: flex;
 }
-body .container .content-kiri .profile-kontak .kontak .kontak-teks .detail-kontak .list-kontak .bg-icon {
+.content-kiri .profile-kontak .kontak .kontak-teks .detail-kontak .list-kontak .bg-icon {
   width: 30px;
 }
-body .container .content-kiri .profile-kontak .kontak .kontak-teks .detail-kontak .list-kontak .bg-icon .icon i {
+.content-kiri .profile-kontak .kontak .kontak-teks .detail-kontak .list-kontak .bg-icon .icon i {
   font-size: 20px;
 }
-body .container .content-kiri .profile-kontak .kontak .kontak-teks .detail-kontak .list-kontak .bg-text {
+.content-kiri .profile-kontak .kontak .kontak-teks .detail-kontak .list-kontak .bg-text {
   width: 150px;
 }
-body .container .content-kiri .profile-ikuti {
+.content-kiri .profile-ikuti {
   height: 290px;
   width: 100%;
   padding-top: 20px;
 }
-body .container .content-kiri .profile-ikuti .ikuti {
+.content-kiri .profile-ikuti .ikuti {
   width: 190px;
   color: white;
   margin: auto;
 }
-body .container .content-kiri .profile-ikuti .ikuti .kontak-ikuti {
+.content-kiri .profile-ikuti .ikuti .kontak-ikuti {
   width: 180px;
   margin: 20px 0 20px 0;
 }
-body .container .content-kiri .profile-ikuti .ikuti .kontak-ikuti h4 {
+.content-kiri .profile-ikuti .ikuti .kontak-ikuti h4 {
   margin-bottom: 30px;
   letter-spacing: 2px;
 }
-body .container .content-kiri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti {
+.content-kiri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti {
   font-size: 14px;
   margin-bottom: 10px;
 }
-body .container .content-kiri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti .list-ikuti {
+.content-kiri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti .list-ikuti {
   position: relative;
   list-style: none;
   margin: 25px 0;
   cursor: pointer;
   display: flex;
 }
-body .container .content-kiri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti .list-ikuti .bg-icon {
+.content-kiri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti .list-ikuti .bg-icon {
   width: 30px;
 }
-body .container .content-kiri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti .list-ikuti .bg-icon .icon i {
+.content-kiri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti .list-ikuti .bg-icon .icon i {
   font-weight: 400;
   font-size: 20px;
 }
-body .container .content-kiri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti .list-ikuti .bg-text {
+.content-kiri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti .list-ikuti .bg-text {
   width: 150px;
 }
-body .container .content-kiri .profile-hobi {
+.content-kiri .profile-hobi {
   height: 140px;
 }
-body .container .content-kiri .profile-hobi .hobi {
+.content-kiri .profile-hobi .hobi {
   width: 190px;
   color: white;
   margin: auto;
 }
-body .container .content-kiri .profile-hobi .hobi h4 {
+.content-kiri .profile-hobi .hobi h4 {
   margin-bottom: 30px;
   letter-spacing: 2px;
 }
-body .container .content-kiri .profile-hobi .hobi .detail-hobi {
+.content-kiri .profile-hobi .hobi .detail-hobi {
   display: flex;
   align-items: start;
 }
-body .container .content-kiri .profile-hobi .hobi .detail-hobi .list-icon {
+.content-kiri .profile-hobi .hobi .detail-hobi .list-icon {
   list-style: none;
   margin-right: 15px;
 }
-body .container .content-kiri .profile-hobi .hobi .detail-hobi .list-icon .bg-icon {
+.content-kiri .profile-hobi .hobi .detail-hobi .list-icon .bg-icon {
   height: 40px;
   text-align: center;
 }
-body .container .content-kiri .profile-hobi .hobi .detail-hobi .list-icon .bg-icon .icon i {
+.content-kiri .profile-hobi .hobi .detail-hobi .list-icon .bg-icon .icon i {
   font-size: 25px;
 }
-body .container .content-kiri .profile-hobi .hobi .detail-hobi .list-icon .bg-text {
+.content-kiri .profile-hobi .hobi .detail-hobi .list-icon .bg-text {
   height: 40px;
 }
-body .container .content-kiri .profile-hobi .hobi .detail-hobi .list-icon .bg-text .text {
+.content-kiri .profile-hobi .hobi .detail-hobi .list-icon .bg-text .text {
   font-size: 15px;
 }
-body .container .content-kanan {
+.content-kanan {
   width: 190mm;
   height: 297mm;
   background-color: white;
@@ -173,22 +175,22 @@ body .container .content-kanan {
   align-items: center;
   justify-content: center;
 }
-body .container .content-kanan .box-kanan {
+.content-kanan .box-kanan {
   width: 135mm;
   height: 270mm;
 }
-body .container .content-kanan .box-kanan .bg-tentang {
+.content-kanan .box-kanan .bg-tentang {
   margin-bottom: 40px;
 }
-body .container .content-kanan .box-kanan .bg-tentang .judul-tentang {
+.content-kanan .box-kanan .bg-tentang .judul-tentang {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
 }
-body .container .content-kanan .box-kanan .bg-tentang .judul-tentang .bg-icon {
+.content-kanan .box-kanan .bg-tentang .judul-tentang .bg-icon {
   width: 18mm;
 }
-body .container .content-kanan .box-kanan .bg-tentang .judul-tentang .bg-icon .icon-tentang {
+.content-kanan .box-kanan .bg-tentang .judul-tentang .bg-icon .icon-tentang {
   width: 8mm;
   height: 8mm;
   border-radius: 50%;
@@ -198,26 +200,26 @@ body .container .content-kanan .box-kanan .bg-tentang .judul-tentang .bg-icon .i
   justify-content: center;
   color: white;
 }
-body .container .content-kanan .box-kanan .bg-tentang .judul-tentang .teks-tentang {
+.content-kanan .box-kanan .bg-tentang .judul-tentang .teks-tentang {
   width: 60mm;
 }
-body .container .content-kanan .box-kanan .bg-tentang .judul-tentang .garis {
+.content-kanan .box-kanan .bg-tentang .judul-tentang .garis {
   color: #4c3f52;
   width: 100%;
 }
-body .container .content-kanan .box-kanan .bg-tentang .isi-tentang {
+.content-kanan .box-kanan .bg-tentang .isi-tentang {
   width: 130mm;
   margin: auto;
 }
-body .container .content-kanan .box-kanan .bg-pendidikan .judul-pendidikan {
+.content-kanan .box-kanan .bg-pendidikan .judul-pendidikan {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
 }
-body .container .content-kanan .box-kanan .bg-pendidikan .judul-pendidikan .bg-icon {
+.content-kanan .box-kanan .bg-pendidikan .judul-pendidikan .bg-icon {
   width: 18mm;
 }
-body .container .content-kanan .box-kanan .bg-pendidikan .judul-pendidikan .bg-icon .icon-pendidikan {
+.content-kanan .box-kanan .bg-pendidikan .judul-pendidikan .bg-icon .icon-pendidikan {
   width: 8mm;
   height: 8mm;
   border-radius: 50%;
@@ -227,36 +229,36 @@ body .container .content-kanan .box-kanan .bg-pendidikan .judul-pendidikan .bg-i
   justify-content: center;
   color: white;
 }
-body .container .content-kanan .box-kanan .bg-pendidikan .judul-pendidikan .teks-pendidikan {
+.content-kanan .box-kanan .bg-pendidikan .judul-pendidikan .teks-pendidikan {
   width: 100mm;
 }
-body .container .content-kanan .box-kanan .bg-pendidikan .judul-pendidikan .garis {
+.content-kanan .box-kanan .bg-pendidikan .judul-pendidikan .garis {
   color: #4c3f52;
   width: 100%;
 }
-body .container .content-kanan .box-kanan .bg-pendidikan .isi-pendidikan {
+.content-kanan .box-kanan .bg-pendidikan .isi-pendidikan {
   width: 130mm;
   margin: auto;
 }
-body .container .content-kanan .box-kanan .bg-pendidikan .isi-pendidikan .bg-sekolah {
+.content-kanan .box-kanan .bg-pendidikan .isi-pendidikan .bg-sekolah {
   display: flex;
   margin-bottom: 20px;
 }
-body .container .content-kanan .box-kanan .bg-pendidikan .isi-pendidikan .nama-sekolah {
+.content-kanan .box-kanan .bg-pendidikan .isi-pendidikan .nama-sekolah {
   width: 40mm;
 }
-body .container .content-kanan .box-kanan .bg-pendidikan .isi-pendidikan .alamat-sekolah {
+.content-kanan .box-kanan .bg-pendidikan .isi-pendidikan .alamat-sekolah {
   width: 90mm;
 }
-body .container .content-kanan .box-kanan .bg-pengalaman .judul-pengalaman {
+.content-kanan .box-kanan .bg-pengalaman .judul-pengalaman {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
 }
-body .container .content-kanan .box-kanan .bg-pengalaman .judul-pengalaman .bg-icon {
+.content-kanan .box-kanan .bg-pengalaman .judul-pengalaman .bg-icon {
   width: 18mm;
 }
-body .container .content-kanan .box-kanan .bg-pengalaman .judul-pengalaman .bg-icon .icon-pengalaman {
+.content-kanan .box-kanan .bg-pengalaman .judul-pengalaman .bg-icon .icon-pengalaman {
   width: 8mm;
   height: 8mm;
   border-radius: 50%;
@@ -266,36 +268,36 @@ body .container .content-kanan .box-kanan .bg-pengalaman .judul-pengalaman .bg-i
   justify-content: center;
   color: white;
 }
-body .container .content-kanan .box-kanan .bg-pengalaman .judul-pengalaman .teks-pengalaman {
+.content-kanan .box-kanan .bg-pengalaman .judul-pengalaman .teks-pengalaman {
   width: 55mm;
 }
-body .container .content-kanan .box-kanan .bg-pengalaman .judul-pengalaman .garis {
+.content-kanan .box-kanan .bg-pengalaman .judul-pengalaman .garis {
   color: #4c3f52;
   width: 100%;
 }
-body .container .content-kanan .box-kanan .bg-pengalaman .isi-pengalaman {
+.content-kanan .box-kanan .bg-pengalaman .isi-pengalaman {
   width: 130mm;
   margin: auto;
 }
-body .container .content-kanan .box-kanan .bg-pengalaman .isi-pengalaman .bg-pengalaman {
+.content-kanan .box-kanan .bg-pengalaman .isi-pengalaman .bg-pengalaman {
   display: flex;
   margin-bottom: 20px;
 }
-body .container .content-kanan .box-kanan .bg-pengalaman .isi-pengalaman .bg-pengalaman .nama-pengalaman {
+.content-kanan .box-kanan .bg-pengalaman .isi-pengalaman .bg-pengalaman .nama-pengalaman {
   width: 40mm;
 }
-body .container .content-kanan .box-kanan .bg-pengalaman .isi-pengalaman .bg-pengalaman .tugas-pengalaman {
+.content-kanan .box-kanan .bg-pengalaman .isi-pengalaman .bg-pengalaman .tugas-pengalaman {
   width: 90mm;
 }
-body .container .content-kanan .box-kanan .bg-keahlian .judul-keahlian {
+.content-kanan .box-kanan .bg-keahlian .judul-keahlian {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
 }
-body .container .content-kanan .box-kanan .bg-keahlian .judul-keahlian .bg-icon {
+.content-kanan .box-kanan .bg-keahlian .judul-keahlian .bg-icon {
   width: 18mm;
 }
-body .container .content-kanan .box-kanan .bg-keahlian .judul-keahlian .bg-icon .icon-keahlian {
+.content-kanan .box-kanan .bg-keahlian .judul-keahlian .bg-icon .icon-keahlian {
   width: 8mm;
   height: 8mm;
   border-radius: 50%;
@@ -305,100 +307,118 @@ body .container .content-kanan .box-kanan .bg-keahlian .judul-keahlian .bg-icon 
   justify-content: center;
   color: white;
 }
-body .container .content-kanan .box-kanan .bg-keahlian .judul-keahlian .teks-keahlian {
+.content-kanan .box-kanan .bg-keahlian .judul-keahlian .teks-keahlian {
   width: 37mm;
 }
-body .container .content-kanan .box-kanan .bg-keahlian .judul-keahlian .garis {
+.content-kanan .box-kanan .bg-keahlian .judul-keahlian .garis {
   color: #4c3f52;
   width: 100%;
 }
-body .container .content-kanan .box-kanan .bg-keahlian .isi-keahlian {
+.content-kanan .box-kanan .bg-keahlian .isi-keahlian {
   width: 130mm;
   margin: auto;
 }
-body .container .content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian {
+.content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian {
   display: flex;
   margin-bottom: 20px;
 }
-body .container .content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian .nama-keahlian {
+.content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian .nama-keahlian {
   width: 50mm;
 }
-body .container .content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian .panah {
+.content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian .panah {
   width: 10mm;
 }
-body .container .content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian .bintang-keahlian {
+.content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian .bintang-keahlian {
   width: 70mm;
   display: flex;
 }
-body .container .content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian .bintang-keahlian .bintang {
+.content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian .bintang-keahlian .bintang {
   color: #4c3f52;
   margin-right: 6px;
 }
-body .container .content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian .bintang-keahlian .warna {
+.content-kanan .box-kanan .bg-keahlian .isi-keahlian .bg-keahlian .bintang-keahlian .warna {
   color: #8e8492;
   margin-right: 6px;
 }
-@media only screen and (max-width: 426px) {
-  body .container {
+
+@media screen and (max-width: 426px) {
+  .container {
     flex-direction: column;
     height: 297mm;
-    width: 150mm;
+    width: 425px;
   }
-  body .container .content-kiri {
-    width: 150mm;
+  .container .content-kiri {
+    width: 425px;
   }
-  body .container .content-kiri .profile-utama {
+  .container .content-kiri .profile-utama {
     height: 300px;
   }
-  body .container .content-kiri .profile-utama .nama {
+  .container .content-kiri .profile-utama .nama {
     width: 300px;
   }
-  body .container .content-kiri .profile-utama .nama .nama-teks {
+  .container .content-kiri .profile-utama .nama .nama-teks {
     width: 300px;
     text-align: center;
   }
-  body .container .content-kiri .profile-utama .nama .nama-teks h2 {
+  .container .content-kiri .profile-utama .nama .nama-teks h2 {
     margin-bottom: 7px;
   }
-  body .container .data-diri {
+  .container .data-diri {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
-  body .container .data-diri .profile-kontak {
+  .container .data-diri .profile-kontak {
     height: 250px;
     width: 50%;
   }
-  body .container .data-diri .profile-kontak .kontak .kontak-teks h4 {
+  .container .data-diri .profile-kontak .kontak .kontak-teks h4 {
     text-align: center;
   }
-  body .container .data-diri .profile-kontak .kontak .kontak-teks .detail-kontak {
+  .container .data-diri .profile-kontak .kontak .kontak-teks .detail-kontak {
     align-items: center;
   }
-  body .container .data-diri .profile-ikuti {
+  .container .data-diri .profile-ikuti {
     height: 250px;
     width: 50%;
   }
-  body .container .data-diri .profile-ikuti .ikuti {
+  .container .data-diri .profile-ikuti .ikuti {
     margin: autoz;
   }
-  body .container .data-diri .profile-ikuti .ikuti .kontak-ikuti h4 {
+  .container .data-diri .profile-ikuti .ikuti .kontak-ikuti h4 {
     text-align: center;
   }
-  body .container .data-diri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti {
+  .container .data-diri .profile-ikuti .ikuti .kontak-ikuti .detail-ikuti {
     padding-left: 25px;
   }
-  body .container .data-diri .profile-hobi {
+  .container .data-diri .profile-hobi {
     height: 180px;
     width: 50%;
     padding-top: 20px;
   }
-  body .container .data-diri .profile-hobi .hobi h4 {
+  .container .data-diri .profile-hobi .hobi h4 {
     text-align: center;
   }
-  body .container .content-kanan {
-    width: 150mm;
+  .container .content-kanan {
+    width: 425px;
+    height: 310mm;
     padding: 30px 0 30px 0;
+  }
+  .container .content-kanan .box-kanan {
+    width: 400px;
+    height: 300mm;
+  }
+  .container .content-kanan .box-kanan .isi-tentang {
+    width: 100%;
+  }
+  .container .content-kanan .box-kanan .isi-pendidikan {
+    width: 100%;
+  }
+  .container .content-kanan .box-kanan .isi-pengalaman {
+    width: 100%;
+  }
+  .container .content-kanan .box-kanan .isi-keahlian {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
